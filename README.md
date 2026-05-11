@@ -17,12 +17,12 @@ collab-code/
 
 ## Prerequisites
 
-| Tool | Version | Install |
-|------|---------|---------|
-| Node.js | 18+ | https://nodejs.org |
-| npm | 9+ | bundled with Node |
-| Redis | 7+ | https://redis.io/download OR Redis Cloud |
-| MongoDB | 6+ | https://mongodb.com/try/download OR MongoDB Atlas |
+| Tool    | Version | Install                                           |
+| ------- | ------- | ------------------------------------------------- |
+| Node.js | 18+     | https://nodejs.org                                |
+| npm     | 9+      | bundled with Node                                 |
+| Redis   | 7+      | https://redis.io/download OR Redis Cloud          |
+| MongoDB | 6+      | https://mongodb.com/try/download OR MongoDB Atlas |
 
 ---
 
@@ -72,6 +72,7 @@ CLIENT_URL=http://localhost:5173
 ```
 
 For cloud services:
+
 - **MongoDB Atlas**: replace MONGO_URI with your Atlas connection string
 - **Redis Cloud**: replace REDIS_URL with `redis://:<password>@<host>:<port>`
 
@@ -104,3 +105,13 @@ npm run build
 3. **Reconnect recovery** — client fetches latest server state, diffs versions, replays only missing ops
 4. **Redis reconnect buffer** — server keeps a per-room op buffer for short disconnects (no DB hit needed)
 5. **Conflict awareness** — last-writer-wins with version guard; extensible to OT/CRDT (Yjs drop-in ready)
+
+# Screenshots
+
+## Real-Time Collaboration
+
+![Realtime Collaboration](./assets/realtime-sync.png)
+
+## Architecture Overview
+
+![Architecture](./assets/architecture.png)
