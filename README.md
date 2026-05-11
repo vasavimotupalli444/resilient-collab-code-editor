@@ -108,9 +108,19 @@ npm run build
 
 # Screenshots
 
-## Real-Time Collaboration
+## Demo 1 — Room Join / Login
 
-![Realtime Collaboration](./assets/realtime-sync.png)
+![Demo 1](./assets/demo1.png)
+
+Users can create or join collaborative coding rooms with live participant presence.
+
+---
+
+## Demo 2 — Real-Time Collaborative Editing
+
+![Demo 2](./assets/demo2.png)
+
+Demonstrates synchronized multi-user editing with reconnect recovery and live collaboration updates.
 
 ## Architecture Overview
 
