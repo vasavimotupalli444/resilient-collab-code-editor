@@ -125,3 +125,8 @@ Demonstrates synchronized multi-user editing with reconnect recovery and live co
 ## Architecture Overview
 
 ![Architecture](./assets/architecture.png)
+
+## Live Demo
+
+Frontend: https://resilient-collab-code-editor.vercel.app
+Backend Health: https://collab-code-backend-xbza.onrender.com/health
