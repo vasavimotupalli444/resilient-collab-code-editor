@@ -118,7 +118,7 @@ Users can create or join collaborative coding rooms with live participant presen
 
 ## Demo 2 — Real-Time Collaborative Editing
 
-![Demo 2](./assets/demo2.png)
+![Demo 2](./assets/Demo.png)
 
 Demonstrates synchronized multi-user editing with reconnect recovery and live collaboration updates.
 
